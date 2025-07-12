@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Python virtual environment
+workspace/venv/
+
+# Temporary files
+workspace/temp_*.py
+workspace/images/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Package manager files
+package-lock.json
+yarn.lock
