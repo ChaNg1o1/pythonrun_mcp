@@ -2,11 +2,13 @@
 node_modules/
 
 # Python virtual environment
-workspace/venv/
+workspace/
+venv/
 
 # Temporary files
-workspace/temp_*.py
-workspace/images/
+temp_*.py
+*.pyc
+__pycache__/
 
 # System files
 .DS_Store
@@ -17,6 +19,7 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+.claude/
 
 # Logs
 *.log
@@ -25,3 +28,7 @@ npm-debug.log*
 # Package manager files
 package-lock.json
 yarn.lock
+
+# Build outputs
+dist/
+build/
